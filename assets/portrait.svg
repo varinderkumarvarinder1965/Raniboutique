@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 640" role="img" aria-label="Illustration of a tailor at her sewing machine">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7E9E4"/>
+      <stop offset="1" stop-color="#E4BFC1"/>
+    </linearGradient>
+    <linearGradient id="pblouse" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9C4553"/>
+      <stop offset="1" stop-color="#7A303D"/>
+    </linearGradient>
+    <radialGradient id="pglow" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#FFF8EC" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FFF8EC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="520" height="640" fill="url(#pbg)"/>
+  <circle cx="260" cy="250" r="200" fill="url(#pglow)"/>
+
+  <!-- window / arch backdrop -->
+  <path d="M70 470V230a190 190 0 0 1 380 0v240" fill="none" stroke="#C9A227" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M112 470V238a148 148 0 0 1 296 0v232" fill="none" stroke="#C9A227" stroke-opacity="0.2" stroke-width="1.5"/>
+
+  <!-- hanging threads -->
+  <path d="M150 60c-6 40 10 60 4 96" fill="none" stroke="#8C3B4A" stroke-opacity="0.45" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M382 50c8 34-6 58 2 88" fill="none" stroke="#C9A227" stroke-opacity="0.6" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="154" cy="160" r="3" fill="#8C3B4A" fill-opacity="0.5"/>
+  <circle cx="384" cy="142" r="3" fill="#C9A227"/>
+
+  <!-- sewing machine -->
+  <g>
+    <rect x="58" y="430" width="404" height="26" rx="10" fill="#4A3A34"/>
+    <rect x="76" y="456" width="22" height="86" rx="6" fill="#3B2E29"/>
+    <rect x="422" y="456" width="22" height="86" rx="6" fill="#3B2E29"/>
+    <rect x="300" y="360" width="120" height="72" rx="16" fill="#6E4B40"/>
+    <path d="M300 392h-92a20 20 0 0 0-20 20v18" fill="none" stroke="#6E4B40" stroke-width="22" stroke-linecap="round"/>
+    <rect x="176" y="424" width="44" height="10" rx="4" fill="#8E6A5C"/>
+    <circle cx="360" cy="388" r="16" fill="#C9A227" fill-opacity="0.85"/>
+    <circle cx="360" cy="388" r="7" fill="#6E4B40"/>
+    <path d="M186 424v-46" stroke="#B9A79E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M186 378l-6 10h12z" fill="#B9A79E"/>
+  </g>
+
+  <!-- fabric on table -->
+  <path d="M120 430c30-18 70-16 108 0 24 10 40 8 60 0l-8 26H124z" fill="#E8C4C4"/>
+  <path d="M150 432c22-10 48-9 68 0" fill="none" stroke="#8C3B4A" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="3 5"/>
+
+  <!-- woman -->
+  <g>
+    <!-- hair bun -->
+    <circle cx="150" cy="232" r="34" fill="#3B2A26"/>
+    <circle cx="140" cy="196" r="38" fill="#3B2A26"/>
+    <!-- head -->
+    <circle cx="206" cy="214" r="46" fill="#E2B189"/>
+    <!-- hair front -->
+    <path d="M160 204c0-34 22-52 48-52s46 18 46 46c-12-14-32-20-52-18-18 2-32 10-42 24Z" fill="#3B2A26"/>
+    <!-- neck -->
+    <path d="M190 250h34v26h-34z" fill="#D9A57C"/>
+    <!-- blouse / body -->
+    <path d="M222 268c-52 4-86 34-92 86-3 26-2 54 4 76h170c8-40 2-98-10-122-12-24-34-42-72-40Z" fill="url(#pblouse)"/>
+    <!-- arms -->
+    <path d="M140 316c-18 22-26 54-24 82" fill="none" stroke="#E2B189" stroke-width="26" stroke-linecap="round"/>
+    <path d="M310 320c16 18 24 44 22 70" fill="none" stroke="#E2B189" stroke-width="26" stroke-linecap="round"/>
+    <!-- necklace -->
+    <path d="M196 268c8 12 24 12 32 0" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+    <circle cx="212" cy="278" r="3" fill="#C9A227"/>
+    <!-- bindi -->
+    <circle cx="210" cy="200" r="3.5" fill="#8C3B4A"/>
+    <!-- eyes + smile -->
+    <path d="M192 214c4-3 9-3 12 0M224 214c4-3 9-3 12 0" fill="none" stroke="#3B2A26" stroke-width="2" stroke-linecap="round"/>
+    <path d="M206 232c5 5 12 5 17 0" fill="none" stroke="#8C3B4A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- table drape front -->
+  <path d="M0 540h520v100H0z" fill="#EFDCD3"/>
+  <path d="M100 540c40-10 60 10 100 0" fill="none" stroke="#8C3B4A" stroke-opacity="0.15" stroke-width="2"/>
+  <path d="M300 540c40-10 60 10 100 0" fill="none" stroke="#8C3B4A" stroke-opacity="0.15" stroke-width="2"/>
+
+  <!-- spools -->
+  <g>
+    <rect x="56" y="500" width="46" height="16" rx="4" fill="#C9A227"/>
+    <rect x="62" y="478" width="34" height="24" rx="3" fill="#E8C4C4"/>
+    <rect x="62" y="514" width="34" height="24" rx="3" fill="#E8C4C4"/>
+    <rect x="416" y="504" width="40" height="14" rx="4" fill="#8C3B4A"/>
+    <rect x="422" y="486" width="28" height="20" rx="3" fill="#F2E9DE"/>
+  </g>
+</svg>
